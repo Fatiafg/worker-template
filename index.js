@@ -9,3 +9,4 @@ addEventListener('fetch', event => {
 async function handleRequest(request) {
   return new Response('Hello worker!', { status: 200 })
 }
+https://github.com/cloudflare/worker-template.git
